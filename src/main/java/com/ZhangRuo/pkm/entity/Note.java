@@ -10,6 +10,14 @@ public class Note {
     private LocalDateTime createTime;
     private LocalDateTime updateTime;
 
+    public void setCreateTime(LocalDateTime createTime) {
+        this.createTime = createTime;
+    }
+
+    public void setUpdateTime(LocalDateTime updateTime) {
+        this.updateTime = updateTime;
+    }
+
     // 无参构造方法
     public Note() {
         this.createTime = LocalDateTime.now();
